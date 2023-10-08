@@ -1,0 +1,14 @@
+{
+    "users":[
+        {"id":1, "name":"mile", "surname":"milanovic","email":"milan123@gmail.com", "location": "belgrade"},
+        {"id":2,"name":"marko","surname":"markovic","email":"marko1516@gmail.com", "location":"nis"}
+    ],
+
+    "sourcesOfEmergency":[
+        {"id":1, "nameOfSource":"meteorological station", "type":"weather"}
+    ],
+    
+    "emergency":[
+        {"id":1, "title":"Red meteorological alarm for wind", "location":"belgrade"}
+    ]
+}
