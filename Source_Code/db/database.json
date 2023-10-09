@@ -1,14 +1,62 @@
 {
     "users":[
-        {"id":1, "name":"mile", "surname":"milanovic","email":"milan123@gmail.com", "location": "belgrade"},
-        {"id":2,"name":"marko","surname":"markovic","email":"marko1516@gmail.com", "location":"nis"}
+        {
+            "id":1, 
+            "name":"mile", 
+            "surname":"milanovic",
+            "email":"milan123@gmail.com", 
+            "city": "belgrade", 
+            "street":"", 
+            "houseNumber":"13"
+        },
+        {
+            "id":2,
+            "name":"marko",
+            "surname":"markovic",
+            "email":"marko1516@gmail.com", 
+            "city":"nis", 
+            "street":"", 
+            "number":"13"
+        }
     ],
 
     "sourcesOfEmergency":[
-        {"id":1, "nameOfSource":"meteorological station", "type":"weather"}
+        {
+            "id":1, 
+            "nameOfSource":"meteorological station", 
+            "type":"weather"
+        }
     ],
     
     "emergency":[
-        {"id":1, "title":"Red meteorological alarm for wind", "location":"belgrade"}
+        {
+            "id":1, 
+            "title":"Red meteorological alarm for wind", 
+            "date":"9.10.2023",
+            "time":"12:15",
+            "city":"belgrade", 
+            "street":"", 
+            "houseNumber":"13"
+        }
+    ],
+
+    "actions":[
+        {
+            "id":1, 
+            "userId":1,
+            "emergencyId":1, 
+            "typeOfAction":"ignore"
+        }
+    ],
+    "criteria":[
+        {
+            "id":1, 
+            "userId":1, 
+            "city":"", 
+            "street":"", 
+            "streetNumber":"",
+            "sourcesOfEmergencyId":1,
+            "emergencyId":1
+        }
     ]
 }
